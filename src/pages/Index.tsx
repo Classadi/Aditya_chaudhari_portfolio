@@ -44,15 +44,15 @@ const Index = () => {
       ]
     },
     {
-      title: "Elixir - Mental Wellness Companion",
-      description: "Elixir is a mental health chatbot that offers emotional support, self-care activities, journaling prompts, and motivational quotes through AI.",
+      title: "Elixir - AI-Driven Platform for Learning",
+      description: "Designed a platform to track and improve users' learning using data analytics and AI-based personalized recommendations. Integrated with Google Cloud for real-time insights.",
       githubLink: "https://github.com/Classadi/Elixir",
-      techStack: ["Streamlit", "Langchain", "GPT API", "Python"],
+      techStack: ["Python", "Google Cloud", "Data Analytics", "AI"],
       features: [
-        "Integrates with Streamlit, Langchain & GPT API",
-        "Focused on youth wellness, journaling, and conversation",
-        "Minimalist and elegant dark theme UI",
-        "AI-driven mental wellness assistance"
+        "AI-based personalized learning recommendations",
+        "Data analytics for learning improvement tracking",
+        "Google Cloud integration for real-time insights",
+        "User-friendly learning dashboard"
       ],
       images: [
         "/lovable-uploads/b7b98a43-1212-425a-938b-74f77934552d.png", 
@@ -61,14 +61,14 @@ const Index = () => {
     },
     {
       title: "Carnival - Event Management App",
-      description: "Carnival is a centralized mobile app for students to register and track events during college fests.",
+      description: "A React & Node.js-based event platform with AWS integration. Reduced registration time by 30% and added personalized event suggestions.",
       githubLink: "https://github.com/Classadi/Carnival-The-college-event-management-Application",
-      techStack: ["Java", "Firebase", "XML Layouts", "Android Studio"],
+      techStack: ["React", "Node.js", "AWS", "Event Management"],
       features: [
-        "Built using Java, Firebase, XML Layouts",
-        "Event listing, registration and management",
-        "Countdown timer and splash animation",
-        "Multiple user roles for participants and organizers"
+        "Personalized event suggestions",
+        "30% faster registration process",
+        "AWS Integration for scalability",
+        "React & Node.js technology stack"
       ],
       images: [
         "/lovable-uploads/77a19291-cc6a-4220-aa11-37a3a1f46f67.png",

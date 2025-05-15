@@ -21,7 +21,7 @@ const Sidebar = () => {
           />
         </div>
         <h1 className="text-2xl font-bold">Aditya Chaudhari</h1>
-        <p className="text-purple-500 font-medium">Frontend & AI/ML Developer</p>
+        <p className="text-purple-500 font-medium">AI/ML and Data Analytics enthusiast</p>
       </div>
 
       <div className="space-y-4 mb-6">
@@ -40,7 +40,7 @@ const Sidebar = () => {
       </div>
 
       <div className="flex gap-2 mb-8">
-        <a href="https://linkedin.com/in/aditya-chaudhari" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/adityasureshch" target="_blank" rel="noopener noreferrer">
           <Button variant="outline" size="icon" className="rounded-full">
             <Linkedin className="h-4 w-4" />
           </Button>
@@ -58,9 +58,9 @@ const Sidebar = () => {
       <div className="space-y-4 flex-1">
         <h3 className="text-lg font-semibold">Skills</h3>
         <div>
-          <h4 className="text-sm font-medium text-purple-500 mb-1">Frontend</h4>
+          <h4 className="text-sm font-medium text-purple-500 mb-1">Programming</h4>
           <div className="flex flex-wrap gap-1">
-            {["HTML", "CSS", "JavaScript", "React", "Tailwind"].map((skill) => (
+            {["Python", "Java", "Flask", "Tkinter"].map((skill) => (
               <span key={skill} className="bg-purple-50 text-purple-700 text-xs px-2 py-1 rounded-md">
                 {skill}
               </span>
@@ -68,9 +68,9 @@ const Sidebar = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-sm font-medium text-purple-500 mb-1">ML/AI</h4>
+          <h4 className="text-sm font-medium text-purple-500 mb-1">AI/ML</h4>
           <div className="flex flex-wrap gap-1">
-            {["Python", "Scikit-learn", "OpenAI APIs", "Langchain", "Streamlit"].map((skill) => (
+            {["TensorFlow", "PyTorch", "Scikit-learn", "OpenAI", "Deep Q-Learning"].map((skill) => (
               <span key={skill} className="bg-purple-50 text-purple-700 text-xs px-2 py-1 rounded-md">
                 {skill}
               </span>
@@ -78,9 +78,9 @@ const Sidebar = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-sm font-medium text-purple-500 mb-1">Backend</h4>
+          <h4 className="text-sm font-medium text-purple-500 mb-1">Full-Stack</h4>
           <div className="flex flex-wrap gap-1">
-            {["Node.js", "Express.js", "Firebase", "Supabase"].map((skill) => (
+            {["React", "Node.js", "Express.js", "Next.js"].map((skill) => (
               <span key={skill} className="bg-purple-50 text-purple-700 text-xs px-2 py-1 rounded-md">
                 {skill}
               </span>
@@ -88,9 +88,19 @@ const Sidebar = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-sm font-medium text-purple-500 mb-1">Tools</h4>
+          <h4 className="text-sm font-medium text-purple-500 mb-1">Cloud & DevOps</h4>
           <div className="flex flex-wrap gap-1">
-            {["NetBeans", "Figma", "Canva", "VS Code", "GitHub"].map((skill) => (
+            {["AWS", "Google Cloud", "Docker", "CI/CD", "Kubernetes"].map((skill) => (
+              <span key={skill} className="bg-purple-50 text-purple-700 text-xs px-2 py-1 rounded-md">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h4 className="text-sm font-medium text-purple-500 mb-1">Databases</h4>
+          <div className="flex flex-wrap gap-1">
+            {["SQL", "Firebase", "MongoDB"].map((skill) => (
               <span key={skill} className="bg-purple-50 text-purple-700 text-xs px-2 py-1 rounded-md">
                 {skill}
               </span>
