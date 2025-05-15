@@ -17,39 +17,244 @@ endobj
 << /Type /Page
    /Parent 2 0 R
    /MediaBox [0 0 612 792]
-   /Resources << >>
-   /Contents 4 0 R
+   /Resources << /Font <<
+                  /F1 4 0 R
+                  /F2 5 0 R
+                  /F3 6 0 R
+               >>
+            >>
+   /Contents 7 0 R
 >>
 endobj
 
 4 0 obj
-<< /Length 5 0 R >>
+<< /Type /Font
+   /Subtype /Type1
+   /BaseFont /Helvetica
+>>
+endobj
+
+5 0 obj
+<< /Type /Font
+   /Subtype /Type1
+   /BaseFont /Helvetica-Bold
+>>
+endobj
+
+6 0 obj
+<< /Type /Font
+   /Subtype /Type1
+   /BaseFont /Helvetica-Oblique
+>>
+endobj
+
+7 0 obj
+<< /Length 8 0 R >>
 stream
 BT
-  /F1 24 Tf
-  50 700 Td
-  (Aditya Chaudhari Resume) Tj
+  /F2 16 Tf
+  50 750 Td
+  (Aditya Chaudhari) Tj
+  /F1 10 Tf
+  0 -15 Td
+  (Contact: +91 8788744639 | aditchaudhari1504@gmail.com) Tj
+  0 -12 Td
+  (LinkedIn: linkedin.com/in/adityasureshch | GitHub: github.com/classadi) Tj
+
+  /F2 12 Tf
+  -50 -25 Td
+  (SUMMARY) Tj
+  /F1 10 Tf
+  0 -15 Td
+  (AI/ML and Data Analytics enthusiast actively seeking a 2-3 month internship to apply my) Tj
+  0 -12 Td
+  (skills in real-world projects. Certified by Google and AWS, with hands-on experience in) Tj
+  0 -12 Td
+  (AI/ML model development, cloud integration, and chatbot systems. Actively involved in) Tj
+  0 -12 Td
+  (hackathons and team leadership, I bring both technical proficiency and a collaborative mindset.) Tj
+
+  /F2 12 Tf
+  0 -20 Td
+  (EDUCATION) Tj
+  /F1 10 Tf
+  0 -15 Td
+  (Bachelor of Engineering \(B.E.\), Information Technology) Tj
+  0 -12 Td
+  (A. P. Shah Institute of Technology) Tj
+  0 -12 Td
+  (2022 - Present) Tj
+  0 -12 Td
+  (Senior Secondary \(HSC\), Science - 81.67% \(2022\)) Tj
+  0 -12 Td
+  (Secondary \(SSC\) - 93.40% \(2020\)) Tj
+
+  /F2 12 Tf
+  0 -20 Td
+  (CERTIFICATIONS) Tj
+  /F1 10 Tf
+  0 -15 Td
+  (• Google AI/ML Certification) Tj
+  0 -12 Td
+  (• AWS Data Science Engineer) Tj
+  0 -12 Td
+  (• NVIDIA Deep Learning) Tj
+  0 -12 Td
+  (• RedHat OpenShift: Containers and Kubernetes \(D0180\)) Tj
+  0 -12 Td
+  (• Google Cloud Generative AI) Tj
+  0 -12 Td
+  (• Cisco Python Essentials) Tj
+
+  /F2 12 Tf
+  0 -20 Td
+  (PROJECTS) Tj
+  
+  /F2 10 Tf
+  0 -15 Td
+  (Desvio: The Wholesome Tour Assistant \(Sept 2024 - Dec 2024\)) Tj
+  /F1 10 Tf
+  0 -12 Td
+  (Built an AI-powered travel assistant using Dialogflow, SaaS, and Firebase. Integrated Google) Tj
+  0 -12 Td
+  (Maps API for real-time location tracking and hotel booking automation. Reduced query) Tj
+  0 -12 Td
+  (resolution time by 30% and improved user satisfaction by 25%.) Tj
+  
+  /F2 10 Tf
+  0 -15 Td
+  (AI Lunar Landing using Deep Q-Learning \(Jan 2025 - Feb 2025\)) Tj
+  /F1 10 Tf
+  0 -12 Td
+  (Developed an AI model with Deep Q-Learning for lunar landing simulations using) Tj
+  0 -12 Td
+  (TensorFlow, PyTorch, and OpenAI Gym. Achieved 95% accuracy in simulations.) Tj
+  
+  /F2 10 Tf
+  0 -15 Td
+  (Elixir: AI-Driven Platform for Learning Improvement \(Jan 2025 - Present\)) Tj
+  /F1 10 Tf
+  0 -12 Td
+  (Designed a platform to track and improve users' learning using data analytics and AI-based) Tj
+  0 -12 Td
+  (personalized recommendations. Integrated with Google Cloud for real-time insights.) Tj
+  
+  /F2 10 Tf
+  0 -15 Td
+  (CARNIVAL: AI-Powered Event Management \(Jan 2024 - Mar 2024\)) Tj
+  /F1 10 Tf
+  0 -12 Td
+  (Developed a React & Node.js-based event platform with AWS integration. Reduced) Tj
+  0 -12 Td
+  (registration time by 30% and added personalized event suggestions.) Tj
+  
+  /F2 10 Tf
+  0 -15 Td
+  (ECHO: Enhancing Customer Care with an Automated Voice Bot Evaluation System \(Oct 2023 - Nov 2023\)) Tj
+  /F1 10 Tf
+  0 -12 Td
+  (Developed an automated system using Flask and Whisper AI to evaluate customer care) Tj
+  0 -12 Td
+  (voice bots. Integrated Hugging Face Transformers for sentiment analysis, Profanity Check) Tj
+  0 -12 Td
+  (and Detoxify for detecting inappropriate language, and Librosa for audio feature analysis.) Tj
+  0 -12 Td
+  (Implemented speaker diarization with pyannote.audio and response time tracking. Resulted) Tj
+  0 -12 Td
+  (in real-time service quality monitoring and improved customer satisfaction.) Tj
+  
+  /F2 10 Tf
+  0 -15 Td
+  (AgroAI: Smart Agriculture Assistant \(Nov 2023 - Dec 2023\)) Tj
+  /F1 10 Tf
+  0 -12 Td
+  (Developed an AI-based system for crop prediction based on changing weather patterns.) Tj
+  0 -12 Td
+  (Used real-time weather data and machine learning models to guide farmers on optimal crop) Tj
+  0 -12 Td
+  (choices. Integrated with a user-friendly chatbot interface for accessibility.) Tj
+
+  /F2 12 Tf
+  50 -25 Td
+  (SKILLS) Tj
+  /F1 10 Tf
+  0 -15 Td
+  (Frontend: React, Next.js, HTML/CSS, JavaScript, TypeScript, Tailwind CSS) Tj
+  0 -12 Td
+  (UI/UX: Figma, Canva, Adobe XD) Tj
+  0 -12 Td
+  (AI/ML: TensorFlow, PyTorch, Scikit-learn, Deep Q-Learning, OpenAI Gym) Tj
+  0 -12 Td
+  (Backend: Node.js, Express.js, Flask, Python) Tj
+  0 -12 Td
+  (Data Analytics: Google Cloud AI, Data Visualization) Tj
+  0 -12 Td
+  (Cloud Platforms: AWS, Google Cloud) Tj
+  0 -12 Td
+  (Databases: SQL, Firebase, MongoDB) Tj
+  0 -12 Td
+  (DevOps \(Basic\): Docker, CI/CD, Kubernetes) Tj
+
+  /F2 12 Tf
+  0 -20 Td
+  (ACHIEVEMENTS & HACKATHONS) Tj
+  /F1 10 Tf
+  0 -15 Td
+  (• Participated in national and internal hackathons focused on AI/ML) Tj
+  0 -12 Td
+  (• Built and deployed chatbot-driven HR systems and smart assistants) Tj
+  0 -12 Td
+  (• Winner at HackWave Hackathon) Tj
+  0 -12 Td
+  (• Team Leader in Smart India Hackathon \(SIH\)) Tj
+
+  /F2 12 Tf
+  0 -20 Td
+  (INTERNSHIP AVAILABILITY) Tj
+  /F1 10 Tf
+  0 -15 Td
+  (Looking for: AI/ML or Data Analytics Internship) Tj
+  0 -12 Td
+  (Type: In-Office \(Pune/Mumbai preferred\) or Remote) Tj
+  0 -12 Td
+  (Duration: 2 to 3 Months) Tj
+  0 -12 Td
+  (Start Date: Immediate) Tj
+
+  /F2 12 Tf
+  0 -20 Td
+  (ASSOCIATIONS) Tj
+  /F1 10 Tf
+  0 -15 Td
+  (• Technical Co-ordinator, ITSA) Tj
+  0 -12 Td
+  (• Volunteer, AIML Club) Tj
+  0 -12 Td
+  (• Technical Speaker at GUI Quest) Tj
 ET
 endstream
 endobj
 
-5 0 obj
-   55
+8 0 obj
+   4231
 endobj
 
 xref
-0 6
+0 9
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
 0000000115 00000 n 
-0000000218 00000 n 
-0000000325 00000 n 
+0000000307 00000 n 
+0000000374 00000 n 
+0000000446 00000 n 
+0000000520 00000 n 
+0000004805 00000 n 
 
 trailer
-<< /Size 6
+<< /Size 9
    /Root 1 0 R
 >>
 startxref
-345
+4828
 %%EOF
