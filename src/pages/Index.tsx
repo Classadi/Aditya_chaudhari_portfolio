@@ -3,6 +3,7 @@ import MobileHeader from "@/components/MobileHeader";
 import Sidebar from "@/components/Sidebar";
 import Hero from "@/components/Hero";
 import ProjectCard from "@/components/ProjectCard";
+import SkillsSection from "@/components/SkillsSection";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -29,14 +30,14 @@ const Index = () => {
     },
     {
       title: "Desvio - Travel Companion App",
-      description: "Desvio is a personalized travel application offering itinerary generation, chatbot assistance, bucket list management, and inspirational recommendations.",
+      description: "Built an AI-powered travel assistant using Dialogflow, SaaS, and Firebase. Integrated Google Maps API for real-time location tracking and hotel booking automation.",
       githubLink: "https://github.com/11byte/Desvio_backup",
-      techStack: ["React Native", "Firebase", "OpenAI API", "Maps Integration"],
+      techStack: ["React Native", "Firebase", "OpenAI API", "Google Maps", "Dialogflow"],
       features: [
         "AI Chatbot for travel recommendations",
         "Custom Itinerary Planner",
-        "Bucket List UI with travel categories",
-        "Interactive maps and route planning"
+        "Real-time location tracking",
+        "30% faster query resolution time"
       ],
       images: [
         "/lovable-uploads/e12a03df-81d1-4a26-ade3-18d3ec47c1ce.png", 
@@ -61,7 +62,7 @@ const Index = () => {
     },
     {
       title: "Carnival - Event Management App",
-      description: "A React & Node.js-based event platform with AWS integration. Reduced registration time by 30% and added personalized event suggestions.",
+      description: "Developed a React & Node.js-based event platform with AWS integration. Reduced registration time by 30% and added personalized event suggestions.",
       githubLink: "https://github.com/Classadi/Carnival-The-college-event-management-Application",
       techStack: ["React", "Node.js", "AWS", "Event Management"],
       features: [
@@ -88,7 +89,7 @@ const Index = () => {
           <div className="container px-6 md:px-8 py-8">
             <Hero />
 
-            <div id="projects" className="py-12">
+            <div id="projects" className="py-12 scroll-mt-16">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">My Projects</h2>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -100,6 +101,8 @@ const Index = () => {
                 <ProjectCard key={index} {...project} />
               ))}
             </div>
+            
+            <SkillsSection />
             
             <Contact />
           </div>
